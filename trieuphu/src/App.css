@@ -46,3 +46,10 @@ th { background: #1d2b6b; }
 .ladder li { display: flex; justify-content: space-between; padding: 6px 12px; border-radius: 4px; color: #ffb74d; }
 .ladder li.milestone { font-weight: bold; color: #fff; }
 .ladder li.active { background: orange; color: #000; }
+
+.record { color: gold; font-weight: bold; }
+.answer-hidden { visibility: hidden; }
+.lifelines { display: flex; gap: 12px; margin: 16px 0; }
+.audience { background: #111c4e; padding: 12px; border-radius: 10px; }
+.bar-row { margin: 6px 0; }
+.bar { height: 14px; background: #4da3ff; border-radius: 4px; }
