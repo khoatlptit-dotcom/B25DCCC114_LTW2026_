@@ -25,3 +25,24 @@ th { background: #1d2b6b; }
 
 
 
+
+.home form { display: flex; gap: 12px; margin-top: 16px; }
+.home input { flex: 1; max-width: 320px; }
+.rules li { margin: 6px 0; }
+.result-actions { display: flex; gap: 12px; margin-top: 16px; }
+.play { display: flex; gap: 24px; }
+.play-main { flex: 1; }
+.timer { font-size: 20px; font-weight: bold; margin-bottom: 12px; }
+.timer.danger { color: red; }
+.question-card { background: #111c4e; padding: 16px; border-radius: 10px; }
+.question-text { font-size: 18px; }
+.answers { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.answer { padding: 14px; text-align: left; font-size: 16px; }
+.answer.locked { background: orange; color: #000; animation: blink .6s infinite; }
+.answer.correct { background: #1e9e4a; }
+.answer.wrong { background: #d62828; }
+@keyframes blink { 50% { opacity: .5; } }
+.ladder { list-style: none; margin: 0; padding: 0; width: 240px; display: flex; flex-direction: column-reverse; }
+.ladder li { display: flex; justify-content: space-between; padding: 6px 12px; border-radius: 4px; color: #ffb74d; }
+.ladder li.milestone { font-weight: bold; color: #fff; }
+.ladder li.active { background: orange; color: #000; }
